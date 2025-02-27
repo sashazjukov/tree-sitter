@@ -132,7 +132,8 @@ complex types:
 ```
 
 After developing the _type_ sublanguage a bit further, you might decide to switch to working on _statements_ or _expressions_
-instead. It's often useful to check your progress by trying to parse some real code using `tree-sitter parse`.
+instead. It's often useful to check your progress by trying to parse some real code using `tree-sitter generate` ( you must 
+regenerate parser after each change in your grammer code) and then `tree-sitter parse`.
 
 **And remember to add tests for each rule in your `test/corpus` folder!**
 
